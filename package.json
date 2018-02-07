@@ -1,0 +1,21 @@
+{
+  "name": "atom-jquery",
+  "version": "0.0.0",
+  "description": "JQuery snippet >> atom jquery by @code4mk",
+  "keywords": [
+    "js",
+    "jQuery",
+    "jquery",
+    "snippet",
+    "code4mk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/atom-jquery"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

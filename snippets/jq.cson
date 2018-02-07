@@ -1,0 +1,176 @@
+########################################################
+#            drosaas                                  #
+#             ------------                           #
+#####################################################
+
+'.source.js':
+
+  "ready->jquery":
+    "prefix": "jq-ready"
+    "body": """
+    \\$(document).ready(function(){
+      $1
+    });
+    """
+
+  "ready2->jquery":
+    "prefix": "jq-ready2"
+    "body": """
+    \\$(function(){
+      $1
+    });
+    """
+  "ready3->jquery":
+    "prefix": "jq-ready3"
+    "body": """
+    jQuery(document).ready( function(){
+      $1
+    });
+    """
+  "ready4->jquery":
+    "prefix": "jq-ready4"
+    "body": """
+    \\$(function(){
+      $1
+    })(jQuery);
+    """
+  "ready5->jquery":
+    "prefix": "jq-ready5"
+    "body": """
+    \\$(window).load(function(){
+		    $1
+      });
+    """
+
+
+
+
+  "selector->jquery":
+    "prefix": "jq-selector"
+    "body": """
+    \\$("$1")
+    """
+
+  "addClass->jquery":
+    "prefix": "jq-addclass"
+    "body": """
+    addClass("$1")
+    """
+  "css->jquery":
+    "prefix": "jq-css"
+    "body": """
+    css({"$1": "$2"})
+    """
+  "remove->jquery":
+    "prefix": "jq-remove"
+    "body": """
+    remove()
+    """
+  "empty->jquery":
+    "prefix": "jq-empty"
+    "body": """
+    empty()
+    """
+
+  "append->jquery":
+    "prefix": "jq-append"
+    "body": """
+    append("$1")
+    """
+  "prepend->jquery":
+    "prefix": "jq-prepend"
+    "body": """
+    prepend("$1")
+    """
+  "before->jquery":
+    "prefix": "jq-before"
+    "body": """
+    before("$1")
+    """
+  "after->jquery":
+    "prefix": "jq-after"
+    "body": """
+    after("$1")
+    """
+
+  "text->jquery":
+    "prefix": "jq-text"
+    "body": """
+    text("$1")
+    """
+  "html->jquery":
+    "prefix": "jq-html"
+    "body": """
+    html("$1")
+    """
+  "val->jquery":
+    "prefix": "jq-val"
+    "body": """
+    val("$1")
+    """
+  "attr->jquery":
+    "prefix": "jq-attr"
+    "body": """
+    attr("$1")
+    """
+
+
+  "slideUp->jquery":
+    "prefix": "jq-slideUp"
+    "body": """
+    slideUp($1)
+    """
+  "slideDown->jquery":
+    "prefix": "jq-slideDown"
+    "body": """
+    slideDown($1)
+    """
+
+  "stop->jquery":
+    "prefix": "jq-stop"
+    "body": """
+    stop($1)
+    """
+  "animate->jquery":
+    "prefix": "jq-animate"
+    "body": """
+    animate($1)
+    """
+
+  "slideToggle->jquery":
+    "prefix": "jq-slideToggle"
+    "body": """
+    slideToggle()$1
+    """
+
+  "fadeIn->jquery":
+    "prefix": "jq-fadeIn"
+    "body": """
+    fadeIn()$1
+    """
+  "fadeOut->jquery":
+    "prefix": "jq-fadeOut"
+    "body": """
+    fadeOut()$1
+    """
+  "fadeToggle->jquery":
+    "prefix": "jq-fadeToggle"
+    "body": """
+    fadeToggle()$1
+    """
+  "fadeTo->jquery":
+    "prefix": "jq-fadeTo"
+    "body": """
+    fadeTo()$1
+    """
+
+  "hide->jquery":
+    "prefix": "jq-hide"
+    "body": """
+    hide()$1
+    """
+  "show->jquery":
+    "prefix": "jq-show"
+    "body": """
+    show()$1
+    """
