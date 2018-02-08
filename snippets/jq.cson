@@ -11,6 +11,16 @@
     "body": """
     addClass("$1")
     """
+  "removeClass->jquery":
+    "prefix": "jq-removeclass"
+    "body": """
+    removeClass("$1")
+    """
+  "toggleClass->jquery":
+    "prefix": "jq-toggleClass"
+    "body": """
+    toggleClass("$1")
+    """
   "css->jquery":
     "prefix": "jq-css"
     "body": """
@@ -68,6 +78,12 @@
     "body": """
     attr("$1")
     """
+  "removeAttr->jquery":
+    "prefix": "jq-removeAttr"
+    "body": """
+    removeAttr("$1")
+    """
+
 
 
   "slideUp->jquery":
