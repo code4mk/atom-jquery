@@ -113,6 +113,11 @@
     "body": """
     slideToggle()$1
     """
+  "toggle->jquery":
+    "prefix": "jq-toggle"
+    "body": """
+    toggle()$1
+    """
 
   "fadeIn->jquery":
     "prefix": "jq-fadeIn"
