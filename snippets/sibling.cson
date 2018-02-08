@@ -1,0 +1,64 @@
+'.source.js':
+
+  "siblings->jquery":
+    "prefix": "jq-siblings"
+    "body": """
+    siblings()
+    """
+  "next->jquery":
+    "prefix": "jq-next"
+    "body": """
+    next()
+    """
+  "nextAll->jquery":
+    "prefix": "jq-nextAll"
+    "body": """
+    nextAll()
+    """
+  "nextUntil->jquery":
+    "prefix": "jq-nextUntil"
+    "body": """
+    nextUntil()
+    """
+  "prev->jquery":
+    "prefix": "jq-prev"
+    "body": """
+    prev()
+    """
+  "prevAll->jquery":
+    "prefix": "jq-prevAll"
+    "body": """
+    prevAll()
+    """
+  "prevUntil->jquery":
+    "prefix": "jq-prevUntil"
+    "body": """
+    prevUntil()
+    """
+
+
+  "first->jquery":
+    "prefix": "jq-first"
+    "body": """
+    first()
+    """
+  "last->jquery":
+    "prefix": "jq-last"
+    "body": """
+    last()
+    """
+  "eq->jquery":
+    "prefix": "jq-eq"
+    "body": """
+    eq($1)
+    """
+  "filter->jquery":
+    "prefix": "jq-filter"
+    "body": """
+    filter($1)
+    """
+  "not->jquery":
+    "prefix": "jq-not"
+    "body": """
+    not($1)
+    """

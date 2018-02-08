@@ -212,5 +212,5 @@
   "find->jquery":
     "prefix": "jq-find"
     "body": """
-    find()
+    find($1)
     """
