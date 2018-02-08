@@ -152,6 +152,11 @@
     "body": """
     click(function()$1)
     """
+  "trigger->jquery":
+    "prefix": "jq-trigger"
+    "body": """
+    trigger($1)
+    """
   "dbclick->jquery":
     "prefix": "jq-dbclick"
     "body": """
