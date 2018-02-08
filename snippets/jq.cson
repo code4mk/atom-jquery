@@ -1,50 +1,5 @@
-########################################################
-#            drosaas                                  #
-#             ------------                           #
-#####################################################
-
 '.source.js':
-
-  "ready->jquery":
-    "prefix": "jq-ready"
-    "body": """
-    \\$(document).ready(function(){
-      $1
-    });
-    """
-
-  "ready2->jquery":
-    "prefix": "jq-ready2"
-    "body": """
-    \\$(function(){
-      $1
-    });
-    """
-  "ready3->jquery":
-    "prefix": "jq-ready3"
-    "body": """
-    jQuery(document).ready( function(){
-      $1
-    });
-    """
-  "ready4->jquery":
-    "prefix": "jq-ready4"
-    "body": """
-    \\$(function(){
-      $1
-    })(jQuery);
-    """
-  "ready5->jquery":
-    "prefix": "jq-ready5"
-    "body": """
-    \\$(window).load(function(){
-		    $1
-      });
-    """
-
-
-
-
+  
   "selector->jquery":
     "prefix": "jq-selector"
     "body": """
