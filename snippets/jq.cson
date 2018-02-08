@@ -1,5 +1,5 @@
 '.source.js':
-  
+
   "selector->jquery":
     "prefix": "jq-selector"
     "body": """
@@ -128,4 +128,89 @@
     "prefix": "jq-show"
     "body": """
     show()$1
+    """
+
+
+  "click->jquery":
+    "prefix": "jq-click"
+    "body": """
+    click(function()$1)
+    """
+  "dbclick->jquery":
+    "prefix": "jq-dbclick"
+    "body": """
+    dbclick(function()$1)
+    """
+  "mouseenter->jquery":
+    "prefix": "jq-mouseenter"
+    "body": """
+    mouseenter(function()$1)
+    """
+  "mouseleave->jquery":
+    "prefix": "jq-mouseleave"
+    "body": """
+    mouseleave(function()$1)
+    """
+  "mousedown->jquery":
+    "prefix": "jq-mousedown"
+    "body": """
+    mousedown(function()$1)
+    """
+  "mouseup->jquery":
+    "prefix": "jq-mouseup"
+    "body": """
+    mouseup(function()$1)
+    """
+  "hover->jquery":
+    "prefix": "jq-hover"
+    "body": """
+    hover(function()$1)
+    """
+  "focus->jquery":
+    "prefix": "jq-focus"
+    "body": """
+    focus(function()$1)
+    """
+  "blur->jquery":
+    "prefix": "jq-blur"
+    "body": """
+    blur(function()$1)
+    """
+  "on->jquery":
+    "prefix": "jq-on"
+    "body": """
+    on("click", function()$1)
+    """
+
+
+  "parent->jquery":
+    "prefix": "jq-parent"
+    "body": """
+    parent()$1
+    """
+  "parents->jquery":
+    "prefix": "jq-parents"
+    "body": """
+    parents()$1
+    """
+  "parentsUntil->jquery":
+    "prefix": "jq-parentsUntil"
+    "body": """
+    parentsUntil()
+    """
+  "parentsUntil->jquery":
+    "prefix": "jq-parentsUntil"
+    "body": """
+    parentsUntil()
+    """
+
+  "children->jquery":
+    "prefix": "jq-children"
+    "body": """
+    children()
+    """
+  "find->jquery":
+    "prefix": "jq-find"
+    "body": """
+    find()
     """
