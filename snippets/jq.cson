@@ -222,12 +222,7 @@
   "parentsUntil->jquery":
     "prefix": "jq-parentsUntil"
     "body": """
-    parentsUntil()
-    """
-  "parentsUntil->jquery":
-    "prefix": "jq-parentsUntil"
-    "body": """
-    parentsUntil()
+    parentsUntil($1)
     """
 
   "children->jquery":
